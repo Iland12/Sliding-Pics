@@ -34,7 +34,7 @@ ul {
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  animation: scroll 30s linear infinite;
+  animation: scroll 20s linear infinite;
   display: none;
 }
 ul li {
@@ -81,6 +81,9 @@ button {
 }
 button:active {
   transform: translateY(4px);
+}
+audio {
+  display: none;
 }
 
 /* responsive design */
